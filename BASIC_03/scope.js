@@ -30,3 +30,18 @@ function one(){
 two()
 }
 one()
+
+
+///+++++++interesting+++++++
+
+console.log(addone(4));
+function addone(num){
+    return num+1
+}
+
+console.log(addtwo(3));
+
+const addtwo=function(n){
+    return n+2
+}
+
